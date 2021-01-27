@@ -16,7 +16,8 @@ public class WordCount {
         // create execute environment
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
         // read text from file
-        DataSet<String> source = env.readTextFile("");
+        String path = System.getProperty("user.dir") + "/src/main/resources/hello.txt";
+        DataSet<String> source = env.readTextFile(path);
 
         DataSet<Tuple2<String, Integer>> result = source.flatMap(new FlatMapper())
                 .groupBy(0)
