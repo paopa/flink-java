@@ -18,6 +18,8 @@ public class WordCount {
     }
 
     private static void testFromSocket(StreamExecutionEnvironment env, String[] args) throws Exception {
+
+//        env.disableOperatorChaining();
         // get args from parameter tool
         ParameterTool tool = ParameterTool.fromArgs(args);
         String host = tool.get("host");
