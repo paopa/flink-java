@@ -2,7 +2,7 @@ package pers.pao.flink.source.collection;
 
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
-import pers.pao.flink.source.beans.A;
+import pers.pao.flink.source.objects.A;
 
 import java.util.Arrays;
 import java.util.List;

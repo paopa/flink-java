@@ -3,7 +3,7 @@ package pers.pao.flink.source.custom;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.source.SourceFunction;
-import pers.pao.flink.source.beans.A;
+import pers.pao.flink.source.objects.A;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package pers.pao.flink.source.beans;
+package pers.pao.flink.source.objects;
 
 import lombok.Data;
 
