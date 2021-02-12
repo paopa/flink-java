@@ -1,4 +1,4 @@
-package pers.pao.flink.transform.rolling.aggregation;
+package pers.pao.flink.transform.keyby.rolling.aggregation;
 
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.streaming.api.datastream.DataStream;
